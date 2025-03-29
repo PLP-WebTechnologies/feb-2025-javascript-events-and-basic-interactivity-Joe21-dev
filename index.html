@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interactive Webpage</h1>
+
+    <div class="form-container">
+        <h2>Form Submission</h2>
+        <div id="formMessage" class="error"></div>
+        <div id="formSuccess" class="success hidden">Form submitted successfully!</div>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+
+    <div class="toggle-paragraph" id="toggleButton">Click Here</div>
+    <p id="toggleParagraph" class="hidden">
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eum, repellat molestias ab enim laborum repudiandae! Tempora officiis accusamus facilis tempore fugiat, quisquam at eveniet in veniam doloribus autem maiores.
+    </p>
+
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
